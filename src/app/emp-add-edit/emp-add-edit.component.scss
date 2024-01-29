@@ -1,0 +1,32 @@
+.content{
+    padding-top: 10px;
+}
+
+
+
+.row{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    mat-form-field{
+        width: 100%;
+    }
+    mat-radio-group{
+        mat-radio-button{
+            margin-left: 15px;
+        }
+    }
+}
+
+.inputs{
+    mat-form-field{
+        width: 15rem;
+    }
+}
+
+.action{
+    padding: 0 5px 20px;
+    button{
+        flex: 1;
+    }
+}
